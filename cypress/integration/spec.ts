@@ -5,7 +5,7 @@ describe('When Angular starting page is loaded', () => {
 
   it('smoke test', () => {
     cy.visit('/');
-    cy.contains('AngularCypress app is running!');
+    cy.contains('AngularCypress1 app is running!');
   });
 
   it('has an app title, shows proper command by default and reacts on command changes', () => {
